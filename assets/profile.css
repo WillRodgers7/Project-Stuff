@@ -16,16 +16,17 @@ body {
     color: white;
 }
 
-.btn-primary {
+/* Nav Bar Styling */
+.nav-link {
     font-family: 'Amatic SC', cursive;
     color: pink !important;
     font-weight: bolder;
     font-size: 25px;
 }
 
-.btn-primary:hover,
-.btn-primary-active,
-.btn-primary:visited {
+.nav-link:hover,
+.nav-link-active,
+.nav-link:visited {
     font-family: 'Amatic SC', cursive;
     color: rgb(255, 164, 178) !important;
     font-weight: bolder;
@@ -54,10 +55,12 @@ body {
     width 300px;
 }
 
-.display-3 {
-    font-family: 'Pacifico', cursive;
-    color: pink;
 
+/* Jumbotron Contents */
+#myName {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    margin-left: 30%;
 }
 
 .lead {
@@ -67,19 +70,66 @@ body {
     float: left;
 }
 
-#jumboBtn {
-    font-family: 'Amatic SC', cursive;
-    /* background-color: rgb(255, 164, 178) !important; */
-    font-weight: bolder;
-    margin-left: 70px;
+.rounded-circle {
+    margin-left: 400px;
+
 }
 
-/* .btn-primary:hover,
-.btn-primary-active,
-.btn-primary:visited {
+#jumboBtn {
     font-family: 'Amatic SC', cursive;
-    background-color: pink !important;
+    background-color: white !important;
+    color: pink;
     font-weight: bolder;
-    font-size: 25px;
+    margin-left: 480px;
+}
 
-} */
+
+#jumboBtn:hover,
+#jumboBtn-active,
+#jumboBtn:visited {
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 164, 178) !important;
+    font-weight: bolder;
+    font-size: 21px;
+
+}
+
+/* Forms */
+#texting {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.card-body {
+    background-color: rgb(233, 236, 239)
+}
+
+
+
+
+/* Story Cards */
+
+.display-4 {
+    font-family: 'Pacifico', cursive;
+    color: pink;
+}
+
+
+.btn-primary {
+    font-family: 'Amatic SC', cursive;
+    background-color: white !important;
+    color: pink;
+    font-weight: bolder;
+}
+
+
+.btn-primary :hover,
+.btn-primary-active,
+.btn-primary :visited {
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 164, 178) !important;
+    font-weight: bolder;
+    font-size: 21px;
+}
