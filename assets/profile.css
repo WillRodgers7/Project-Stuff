@@ -2,7 +2,7 @@ body {
     background-color: pink;
 }
 
-/* Front Page Text Styling */
+/* Page Text Styling */
 #logo {
     font-family: 'Pacifico', cursive;
     font-size: 60px;
@@ -16,19 +16,70 @@ body {
     color: white;
 }
 
-.nav-link {
+.btn-primary {
     font-family: 'Amatic SC', cursive;
     color: pink !important;
     font-weight: bolder;
     font-size: 25px;
 }
 
-.nav-link:hover,
-.nav-link active,
-.nav-link:visited {
+.btn-primary:hover,
+.btn-primary-active,
+.btn-primary:visited {
     font-family: 'Amatic SC', cursive;
-    color: rgb(253, 177, 189) !important;
+    color: rgb(255, 164, 178) !important;
     font-weight: bolder;
     font-size: 25px;
 
 }
+
+
+
+
+/* Jumbotron Styling */
+.jumbo-height {
+    min-height: 650px;
+    background: linear-gradient(black, transparent 60%),
+        url("./monstra.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    min-height: 640px;
+    color: #fff;
+}
+
+.img-size {
+    height: 300px;
+    width 300px;
+}
+
+.display-3 {
+    font-family: 'Pacifico', cursive;
+    color: pink;
+
+}
+
+.lead {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 25px;
+    float: left;
+}
+
+#jumboBtn {
+    font-family: 'Amatic SC', cursive;
+    /* background-color: rgb(255, 164, 178) !important; */
+    font-weight: bolder;
+    margin-left: 70px;
+}
+
+/* .btn-primary:hover,
+.btn-primary-active,
+.btn-primary:visited {
+    font-family: 'Amatic SC', cursive;
+    background-color: pink !important;
+    font-weight: bolder;
+    font-size: 25px;
+
+} */

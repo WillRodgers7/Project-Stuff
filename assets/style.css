@@ -22,7 +22,7 @@
 }
 
 
-/* Front Page Text Styling */
+/*Page Text Styling */
 #logo {
   font-family: 'Pacifico', cursive;
   font-size: 60px;
@@ -53,7 +53,7 @@
 .btn-secondary active,
 .btn-secondary:visited {
   font-family: 'Amatic SC', cursive;
-  background-color: rgb(253, 177, 189) !important;
+  background-color: rgb(255, 164, 178) !important;
 
 
 }
