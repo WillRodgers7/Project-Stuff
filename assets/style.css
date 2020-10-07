@@ -22,35 +22,37 @@
 }
 
 
-
+/* Front Page Text Styling */
 #logo {
   font-family: 'Pacifico', cursive;
   font-size: 60px;
   color: pink;
 }
 
-
-
 #cap {
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: lightsalmon;
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  color: white;
+}
+
+
+
+
+/* Button Styling */
+#loggers {
+  margin-right: 50%;
 }
 
 .btn-secondary {
+  font-family: 'Amatic SC', cursive;
   background-color: pink !important;
-  font-family: 'Varela Round', sans-serif;
 
 }
 
-
-
-
-/* .btn-secondary, */
 .btn-secondary:hover,
 .btn-secondary active,
 .btn-secondary:visited {
-  background-color: lightsalmon !important;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Amatic SC', cursive;
+  background-color: lightpink !important;
 
 }

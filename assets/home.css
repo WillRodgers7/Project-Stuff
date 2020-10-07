@@ -1,0 +1,22 @@
+body {
+    background-color: pink;
+}
+
+/* Front Page Text Styling */
+#logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: pink;
+}
+
+#cap {
+    /* font-family: 'Varela Round', sans-serif; */
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+.nav-item{
+    font-family: 'Amatic SC', cursive;
+    background-color: pink !important;
+}
