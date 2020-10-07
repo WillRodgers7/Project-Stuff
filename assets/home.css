@@ -16,7 +16,19 @@ body {
     color: white;
 }
 
-.nav-item{
+.nav-link {
     font-family: 'Amatic SC', cursive;
-    background-color: pink !important;
+    color: pink !important;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.nav-link:hover,
+.nav-link active,
+.nav-link:visited {
+    font-family: 'Amatic SC', cursive;
+    color: rgb(253, 177, 189) !important;
+    font-weight: bolder;
+    font-size: 25px;
+
 }

@@ -53,6 +53,7 @@
 .btn-secondary active,
 .btn-secondary:visited {
   font-family: 'Amatic SC', cursive;
-  background-color: lightpink !important;
+  background-color: rgb(253, 177, 189) !important;
+
 
 }
