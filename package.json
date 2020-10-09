@@ -1,0 +1,25 @@
+{
+  "name": "Project-Stuff",
+  "version": "1.0.0",
+  "description": "This will be deleted",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillRodgers7/Project-Stuff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillRodgers7/Project-Stuff/issues"
+  },
+  "homepage": "https://github.com/WillRodgers7/Project-Stuff#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  }
+}
