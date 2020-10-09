@@ -20,7 +20,7 @@ body {
 /* Nav Bar Styling */
 .nav-link {
     font-family: 'Amatic SC', cursive;
-    color: pink !important;
+    color: pink;
     font-weight: bolder;
     font-size: 25px;
 }
