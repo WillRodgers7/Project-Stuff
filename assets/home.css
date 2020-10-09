@@ -44,7 +44,7 @@ body {
 }
 
 
-.btn-primary {
+#storyWeek {
     /* font-family: 'Amatic SC', cursive;
     background-color: white !important;
     color: pink;
@@ -58,9 +58,60 @@ body {
 }
 
 
-.btn-primary :hover,
-.btn-primary-active,
-.btn-primary :visited {
+#storyWeek:hover,
+#storyWeek-active,
+#storyWeek:visited {
+    /* font-family: 'Amatic SC', cursive;
+    color: rgb(255, 164, 178) !important;
+    font-weight: bolder;
+    font-size: 21px; */
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 164, 178) !important;
+    font-weight: bolder;
+    font-size: 21px;
+
+}
+
+
+/* Story Cards */
+
+.card-title {
+    font-family: 'Pacifico', cursive;
+    color: rgb(255, 164, 178) !important;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.card-text {
+    font-family: 'Amatic SC', cursive;
+    color: white !important;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.card {
+    background-color: rgb(233, 236, 239);
+}
+
+
+/* Story Cards Buttons */
+
+#storyCards {
+    /* font-family: 'Amatic SC', cursive;
+    background-color: white !important;
+    color: pink;
+    font-weight: bolder; */
+    font-family: 'Amatic SC', cursive;
+    background-color: white !important;
+    color: pink !important;
+    font-weight: bolder;
+
+}
+
+
+#storyCards:hover,
+#storyCards-active,
+#storyCards:visited {
     /* font-family: 'Amatic SC', cursive;
     color: rgb(255, 164, 178) !important;
     font-weight: bolder;
