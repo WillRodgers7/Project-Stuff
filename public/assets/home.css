@@ -29,7 +29,7 @@ body {
 .nav-link-active,
 .nav-link:visited {
     font-family: 'Amatic SC', cursive;
-    color: aquamarine !important;
+    color: grey !important;
     font-weight: bolder;
     font-size: 25px;
 
@@ -41,6 +41,10 @@ body {
 .display-4 {
     font-family: 'Pacifico', cursive;
     color: rgb(113,218,211);
+}
+
+.jumbo {
+    background-color: grey;
 }
 
 
@@ -91,7 +95,7 @@ body {
 }
 
 .card {
-    background-color: rgb(233, 236, 239);
+    background-color: lightgray;
 }
 
 
@@ -106,7 +110,8 @@ body {
     background-color: white !important;
     color: rgb(113,218,211) !important;
     font-weight: bolder;
-
+    margin-right: 70px;
+ 
 }
 
 
@@ -118,8 +123,14 @@ body {
     font-weight: bolder;
     font-size: 21px; */
     font-family: 'Amatic SC', cursive;
-    color:aquamarine !important;
+    color:rgb(113,218,211) !important;
     font-weight: bolder;
-    font-size: 21px;
+    margin-right: 70px;
+    /* font-size: 21px; */
 
 }
+
+.jumbotron {
+    background-color: lightgray;
+}
+

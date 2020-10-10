@@ -28,7 +28,7 @@ body {
 .nav-link-active,
 .nav-link:visited {
     font-family: 'Amatic SC', cursive;
-    color:aquamarine!important;
+    color: grey !important;
     font-weight: bolder;
     font-size: 25px;
 
@@ -154,7 +154,7 @@ body {
 }
 
 .card-body {
-    background-color: rgb(233, 236, 239)
+    background-color: lightgray;
 
     
 }
@@ -166,7 +166,7 @@ body {
 
 .display-4 {
     font-family: 'Pacifico', cursive;
-    color: rgb(113,218,211);
+    color: aquamarine;
 }
 
 
